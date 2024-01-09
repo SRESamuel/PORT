@@ -140,6 +140,71 @@ p {
     align-items: center;
 }
 
+.nav-open-btn {
+    font-size: 3.5rem;
+    color: bisque;
+}
+
+.navBar {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    color: bisque;
+    background-color: #1f2329;
+    max-width: 300px;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    padding-block-end: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.navBar.active {
+    visibility: visible;
+}
+
+
+.navBar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.navBar-list {
+    font-weight: bold;
+    padding-block: 6px;
+    margin-block-end: auto;
+}
+
+.navBar-close-btn {
+    color: whitesmoke;
+    padding: 6px;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0;
+}
+
+.overlay.active {
+    opacity: 0.8;
+}
 
 
 /* Header sec*/
