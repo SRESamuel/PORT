@@ -29,3 +29,124 @@ input, button, textarea {
     border: none;
     background: none;
 }
+
+button {
+    cursor: pointer;
+}
+
+html { /* will be changing this this to the imported fonts I just need it for test purposes */
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: lightblue;
+    font-size: 1.6rem;
+    color: bisque;
+    line-height: 1.7;
+}
+
+
+h1,h2,h3,h4,h6,h6 {
+    color: bisque;
+    line-height: 1.3;
+}
+
+p {
+    color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: bisque;
+}
+
+
+.container {
+    padding-inline: 16px;
+}
+
+.section, footer {
+    padding-block: var(--section-padding);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h1 {
+    font-size: calc(2.7rem + 1.38vw);
+}
+
+.h2 {
+    font-size: calc(2.6rem + .66vw);
+}
+
+.h3 {
+    font-size: calc(2.6rem + .25vw);
+}
+
+.h4 {
+    font-size: 1.8rem;
+}
+
+.btn {
+    color: bisque;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 2px solid bisque;
+    max-width: max-content;
+    background-color: black;
+    padding: 12px 28px;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background-color: midnightblue;
+    color: black;
+    border-color: black;
+}
+
+
+/* Header sec*/
+
+.name {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    padding-block: 20px;
+    z-index: 4;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* Header sec*/
+
+
+
+
+
+
+
