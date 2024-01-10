@@ -165,6 +165,7 @@ p {
 
 .navBar.active {
     visibility: visible;
+    transform: translateX(300px);
 }
 
 
@@ -200,10 +201,12 @@ p {
     height: 100vh;
     background-color: black;
     opacity: 0;
+    pointer-events: none;
 }
 
 .overlay.active {
     opacity: 0.8;
+    pointer-events: all;
 }
 
 
