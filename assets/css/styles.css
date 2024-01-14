@@ -1,3 +1,5 @@
+/* Start Body sec*/
+
 :root {
     --section-padding : 90px;
 }
@@ -7,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 
 li {
     list-style: none;
@@ -41,20 +44,20 @@ html { /* will be changing this this to the imported fonts I just need it for te
 
 
 body {
-    background-color: lightblue;
+    background-color: royalblue;
     font-size: 1.6rem;
-    color: bisque;
+    color: white;
     line-height: 1.7;
 }
 
 
 h1,h2,h3,h4,h6,h6 {
-    color: bisque;
+    color: white;
     line-height: 1.3;
 }
 
 p {
-    color: whitesmoke;
+    color: white;
 }
 
 ::-webkit-scrollbar {
@@ -62,11 +65,11 @@ p {
 }
 
 ::-webkit-scrollbar {
-    background-color: black;
+    background-color: royalblue;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: bisque;
+    background-color: royalblue;
 }
 
 
@@ -99,20 +102,20 @@ p {
 }
 
 .btn {
-    color: bisque;
+    color: royalblue;
     font-size: 18px;
     font-weight: bolder;
-    border: 2px solid bisque;
+    border: 2px solid whitesmoke;
     max-width: max-content;
-    background-color: black;
+    background-color: white;
     padding: 12px 28px;
     border-radius: 50px;
 }
 
 .btn:hover {
-    background-color: midnightblue;
-    color: black;
-    border-color: black;
+    background-color: royalblue;
+    color: white;
+    border-color: white;
 }
 
 
@@ -120,10 +123,12 @@ p {
     font-size: 1.8rem;
 }
 
+/* End Body sec*/
 
 
 
-/* Header sec*/
+
+/* Start Header sec*/
 
 .name {
     font-weight: bold;
@@ -131,11 +136,13 @@ p {
     letter-spacing: 4px;
 }
 
+
 .header {
     position: absolute;
+    margin-left: 10px;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: royalblue;
     width: 100%;
     padding-block: 20px;
     z-index: 4;
@@ -149,15 +156,15 @@ p {
 
 .nav-open-btn {
     font-size: 3.5rem;
-    color: bisque;
+    color: white;
 }
 
 .navBar {
     position: fixed;
     top: 0;
     left: -300px;
-    color: bisque;
-    background-color: #1f2329;
+    color: white;
+    background-color: royalblue;
     max-width: 300px;
     width: 100%;
     height: 100vh;
@@ -195,7 +202,7 @@ p {
 }
 
 .navBar-close-btn {
-    color: whitesmoke;
+    color: royalblue;
     padding: 6px;
 }
 
@@ -206,7 +213,7 @@ p {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: whitesmoke;
     opacity: 0;
     pointer-events: none;
 }
@@ -217,10 +224,10 @@ p {
 }
 
 
-/* Header sec*/
+/* End Header sec*/
 
 
-/* Hero section*/
+/* Start Hero section*/
 .hero {
     padding-block-start: calc(var(--section-padding) + 50px);
 }
@@ -273,20 +280,44 @@ p {
     cursor: pointer;
 }
 
-/* Hero section*/
+/* End Hero section*/
 
 
 
-/* About section*/
+/* Start About section*/
 
 .about .wrapper {
     display: grid;
     gap: 50px;
     margin-block-end: 70px;
-
 }
 
-/* About section*/
+.progress-list .label-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 5px;
+}
+
+
+.progress-item {
+    margin-bottom: 15px;
+}
+
+
+.progress {
+    background-color: white;
+    height: 12px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: inherit;
+}
+
+/* End About section*/
 
 
 
