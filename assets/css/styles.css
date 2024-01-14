@@ -151,7 +151,7 @@ p {
     margin-left: 10px;
     top: 0;
     left: 0;
-    background-color: royalblue;
+    background-color: darkblue;
     width: 100%;
     padding-block: 20px;
     z-index: 4;
@@ -348,6 +348,64 @@ p {
 }
 
 /* End About section*/
+
+
+
+/* Start project section*/
+
+.project .title-wrapper {
+    margin-bottom: 40px;
+}
+
+.project .gird-list {
+    gap: 40px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.project-card-one,
+.project-card-two,
+:is(.project-card-three, .project-card-four) .card-content
+{
+    padding: 68px;
+}
+
+
+
+.project :is(.project-card-three,.project-card-four) {
+    gap: 0;
+}
+
+.project .gird-list .project-card {
+    background-color: darkblue;
+}
+
+.project-card .card-type {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.project-card .card-title {
+    margin-block-end: 20px;
+}
+
+.project-card .btn-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+}
+
+/* End project section*/
 
 
 
