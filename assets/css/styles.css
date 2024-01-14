@@ -436,8 +436,26 @@ textarea.input-field {
     resize: vertical;
 }
 
-
 /* End Contact section*/
+
+
+/* Start Footer section*/
+
+.footer-inner-container {
+    background-color: darkblue;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+/* End Footer section*/
+
+
+
+
 
 
 
