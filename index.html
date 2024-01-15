@@ -12,34 +12,34 @@
     <link rel="preload" as="image" href="./assets/pictures/TOP.png">
     <link rel="preload" as="image" href="./assets/pictures/FInallinkedin.jpg">
 </head>
-<body>
+<body class="black">
 <header class="header">
     <div class="container">
-        <a href="#" class="name">Samuel Estrada</a>
+        <a href="#home" class="name">Samuel Estrada</a>
         <nav class="navBar" data-navBar>
             <div class="navBar-top">
-                <a href="#" class="name">Samuel</a>
+                <a href="#home" class="name">Samuel</a>
                 <button class="navBar-close-btn" data-nav-toggler>
-                    <i class="fa fa-window-close" style="color: whitesmoke"></i>
+                    <i class="fa fa-window-close" style="color: white"></i>
                 </button>
             </div>
             <ul class="navBar-list">
                 <li>
-                    <a href="" class="navBar-link">Home</a>
+                    <a href="#home" class="navBar-link">Home</a>
                 </li>
                 <li>
-                    <a href="#" class="navBar-link">About</a>
+                    <a href="#about" class="navBar-link">Skills</a>
                 </li>
                 <li>
-                    <a href="#" class="navBar-link">Projects</a>
+                    <a href="#project" class="navBar-link">Projects</a>
                 </li>
                 <li>
-                    <a href="#" class="navBar-link">Contact</a>
+                    <a href="#contact" class="navBar-link">Contact</a>
                 </li>
             </ul>
             <div class="theme-wrapper">
-                <button id="theme-btn" class="btn theme-">Change Theme</button>
-                <button id="originalTheme-btn" class="btn theme-">Original Theme</button>
+                <button id="blackTheme-btn" class="btn theme-">Dark Mode</button>
+                <button id="originalTheme-btn" class="btn theme-">Light Mode</button>
             </div>
         </nav>
         <button class="nav-open-btn" data-nav-toggler>
@@ -50,27 +50,26 @@
 </header>
 <main>
     <article>
-        <section class="section hero">
+        <section id="Home" class="section hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1 class="h1 title">Welcome! I'm Samuel Estrada, a budding Software Engineer with a flair for creating engaging digital solutions.</h1>
+                    <h1 class="h1 title">Welcome! I'm Samuel Estrada, a growing software developer with a flair for creating digital applications</h1>
                     <p class="section-text">
-                        Hey there! I'm Samuel, your go-to guy for all things tech in the waterloo region.
+                        Hey there! I'm Samuel, your go-to guy for developing applications of your needs.
                         Whether it's making websites sing or getting databases to dance,
-                        I'm all about mixing creativity with code to get the job done. Front-end, back-end, you name it—I love tinkering with it all to create something cool and user-friendly.
+                        I'm all about mixing creativity with code to get the job done. Front-end, back-end, you name it—I love tinkering with it all to create user-friendly and satisfying projects.
                         I'm pretty stoked about the power of tech to make life easier and a bit more fun. So, take a look around my portfolio.
                         It's not just a bunch of projects; it's the story of what I love doing.
                         And hey, if you're into crafting clever solutions and want to chat about the cloud or code, I'm all ears.
-                        Let's make something awesome together!"
+                        Let's make something awesome together!
                     </p>
                     <div class="social-icons-wrapper">
-                        <i style="color: blue" class="fa-brands fa-linkedin"></i>
-                        <i style="color: lightskyblue" class="fa-brands fa-twitter"></i>
-                        <i style="color: black" class="fa-brands fa-github"></i>
+                        <a href="https://www.linkedin.com/in/samuelest" style="color: white" class="fa-brands fa-linkedin"></a>
+                        <a href="https://github.com/SRESamuel" style="color: white" class="fa-brands fa-github"></a>
                     </div>
                     <div class="btn-wrapper">
-                        <button class="btn">See my work</button>
-                        <button class="btn">Contact me</button>
+                        <a href="https://github.com/SRESamuel" class="btn">See my work</a>
+                        <a href="https://www.linkedin.com/in/samuelest" class="btn">Contact me</a>
                     </div>
                 </div>
                 <figure class="hero-banner">
@@ -85,17 +84,17 @@
             </div>
         </section>
         <div class="split"></div>
-        <section class="section about">
+        <section id="about" class="section about">
             <div class="container">
                 <div class="wrapper">
                     <div class="left">
                         <h2 class="h2 section-title">My Skills</h2>
-                        <p class="section-text">Tmpppppp tmpp</p>
+                        <p class="section-text">Here are my core skills and areas of expertise: I am proficient in a range of programming languages, including C# Core, .NET, Java, C, C++, and Python. My experience in web development is extensive, with a strong focus on HTML5, CSS3, Node.js, Angular, and JSP. I am comfortable working with various IDEs like Visual Studio, JetBrains suite, Eclipse, and NetBeans, and have developed a keen proficiency in database management, using both relational and NoSQL databases such as MSSQL and MongoDB. These skills, coupled with my strong problem-solving abilities, enable me to effectively handle both front-end and back-end development challenges.</p>
                     </div>
                     <ul class="progress-list">
                         <li class="progress-item">
                             <div class="label-wrapper">
-                                <p>web Dev</p>
+                                <p>web Development</p>
                                 <span class="span">100%</span>
                             </div>
                             <div class="progress">
@@ -106,7 +105,7 @@
                         </li>
                         <li class="progress-item">
                             <div class="label-wrapper">
-                                <p>Tmp</p>
+                                <p>Back-end</p>
                                 <span class="span">90%</span>
                             </div>
                             <div class="progress">
@@ -117,7 +116,7 @@
                         </li>
                         <li class="progress-item">
                             <div class="label-wrapper">
-                                <p>Back-end</p>
+                                <p>Scripts</p>
                                 <span class="span">85%</span>
                             </div>
                             <div class="progress">
@@ -128,7 +127,7 @@
                         </li>
                         <li class="progress-item">
                             <div class="label-wrapper">
-                                <p>js</p>
+                                <p>Command-line</p>
                                 <span class="span">80%</span>
                             </div>
                             <div class="progress">
@@ -139,7 +138,7 @@
                         </li>
                         <li class="progress-item">
                             <div class="label-wrapper">
-                                <p>Design</p>
+                                <p>Programming Gaming</p>
                                 <span class="span">70%</span>
                             </div>
                             <div class="progress">
@@ -156,8 +155,10 @@
                             <div class="card-icon">
                                 <i style="color: white" class="fa-solid fa-code"></i>
                             </div>
-                            <h3 class="h4 card-title">Web tmp</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet,</p>
+                            <h3 class="h4 card-title">Programming Languages</h3>
+                            <p class="card-text">
+                                My programming languages range from C# Core, .NET, Java, C, C++, and basic Python. Each of these languages has contributed to my versatility as a developer, enabling me to approach various software challenges with confidence and creativity. From the structured environment of C# Core and .NET to the flexibility of Python, my experience spans a wide spectrum of software development contexts
+                            </p>
                         </div>
                     </li>
                     <li>
@@ -165,8 +166,10 @@
                             <div class="card-icon">
                                 <i style="color: white" class="fa-solid fa-database"></i>
                             </div>
-                            <h3 class="h4 card-title">MSSQL</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet,</p>
+                            <h3 class="h4 card-title">Databases</h3>
+                            <p class="card-text">
+                                In the realm of database management, my expertise encompasses both relational and NoSQL databases. I am skilled in using MSSQL for structured query language operations and MongoDB for NoSQL database interactions. This blend of knowledge allows me to efficiently manage and manipulate data across different database systems, catering to various project requirements
+                            </p>
                         </div>
                     </li>
                     <li>
@@ -174,22 +177,24 @@
                             <div class="card-icon">
                                 <i style="color: white" class="fa-solid fa-file-code"></i>
                             </div>
-                            <h3 class="h4 card-title">Extra</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet,</p>
+                            <h3 class="h4 card-title">IDE's</h3>
+                            <p class="card-text">
+                                My proficiency extends to various Integrated Development Environments (IDEs), enhancing my coding efficiency and project management skills. I am well-versed in Visual Studio 2022, Visual Studio Code, and the JetBrains suite (including IntelliJ, WebStorm, and Rider). Additionally, my experience includes using Eclipse and NetBeans, which further diversifies my software development toolkit
+                            </p>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
-        <div class="split"></div>
-        <section class="project">
+        <div id="projectSplit" class="split"></div>
+        <section  id="project" class="project">
             <div class="container">
                 <div class="title-wrapper">
                     <div>
                         <h2 class="h2 section-title">Latest Projects</h2>
-                        <p class="section-text">Have a look at some of my projects</p>
+                        <p class="section-text">Have a look at some of my projects, if you would like to view the source code of some projects. Please message me on linkedin to prevent academic integrity</p>
                     </div>
-                    <button class="btn">See all projects</button>
+                    <a href="https://github.com/SRESamuel" class="btn">See all projects</a>
                 </div>
                 <ul class="gird-list">
                     <li>
@@ -198,7 +203,7 @@
                                 <p class="card-type">C# MVC Application</p>
                                 <h3 class="h3 card-title">Invoice</h3>
                                 <p class="card-text">Description</p>
-                                <a href="#" class="btn-text" style="color: lightskyblue"><span class="span">View Project</span></a>
+                                <a href="https://www.linkedin.com/in/samuelest" class="btn-text" style="color: lightskyblue"><span class="span">View Project</span></a>
                             </div>
                             <figure class="card-banner">
                                 <img src="./assets/pictures/TOP.png"
@@ -215,7 +220,7 @@
                                 <p class="card-type">JS Web Application</p>
                                 <h3 class="h3 card-title">Check-out Component</h3>
                                 <p class="card-text">Description</p>
-                                <a href="#" class="btn-text" style="color: lightskyblue"><span class="span">View Project</span></a>
+                                <a href="https://www.linkedin.com/in/samuelest" class="btn-text" style="color: lightskyblue"><span class="span">View Project</span></a>
                             </div>
                             <figure class="card-banner">
                                 <img src="./assets/pictures/TOP.png"
@@ -263,8 +268,8 @@
                 </ul>
             </div>
         </section>
-        <div class="split"></div>
-        <section class="section contact">
+        <div id="contactSplit" class="split"></div>
+        <section id="contact" class="section contact">
             <div class="container">
                 <div class="contact-card">
                     <div class="contact-content">
@@ -272,7 +277,10 @@
                             <i style="font-size: 50px" class="fa-solid fa-envelope"></i>
                         </div>
                         <h2 class="h2 section-title">Get in touch with me!</h2>
-                        <p class="section-text">Lorem ipsum dolor iquam, ipsa!</p>
+                        <p class="section-text">Have not configured email functionality, due to security reasons, please connect with me on linkedin!</p>
+                        <a href="#" class="social-link">
+                            <a href="https://www.linkedin.com/in/samuelest" style="color: white" class="fa-brands fa-linkedin"></a>
+                        </a>
                     </div>
                     <form action="" method="post" class="contact-form">
                         <div class="input-wrapper">
@@ -290,7 +298,7 @@
                                     class="input-field"/>
                         </div>
                         <textarea name="message" placeholder="Message" required class="input-field"></textarea>
-                        <button type="submit" class="btn">Contact me</button>
+                        <button class="btn">Contact me</button>
                     </form>
                 </div>
             </div>
@@ -303,17 +311,12 @@
                     <ul class="social-icons-wrapper">
                         <li>
                             <a href="#" class="social-link">
-                                <i style="color: blue" class="fa-brands fa-linkedin"></i>
+                                <a href="https://www.linkedin.com/in/samuelest" style="color: blue" class="fa-brands fa-linkedin"></a>
                             </a>
                         </li>
                         <li>
                             <a href="#" class="social-link">
-                                <i style="color: lightskyblue" class="fa-brands fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="social-link">
-                                <i style="color: black" class="fa-brands fa-github"></i>
+                                <a href="https://github.com/SRESamuel" style="color: black" class="fa-brands fa-github"></a>
                             </a>
                         </li>
                     </ul>

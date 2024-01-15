@@ -1,9 +1,10 @@
 const navBar = document.querySelector('[data-navBar]')
 const navTogglerElements = document.querySelectorAll('[data-nav-toggler]')
 const overlay = document.querySelector('[data-overlay]')
-const themeBtn = document.querySelector('#theme-btn')
+const blackBtn = document.querySelector('#blackTheme-btn')
 const originalBtn = document.querySelector('#originalTheme-btn')
-const body = document.querySelector('body')
+const body = document.body
+
 
 function handleElementsOnClick(elements, eventType, callbackFunction) {
     for (let i = 0; i < elements.length; i++) {
@@ -19,36 +20,16 @@ function handleToggleNavBar () {
 
 handleElementsOnClick(navTogglerElements, 'click', handleToggleNavBar)
 
-themeBtn.addEventListener('click', () => {
-    // Cycle through the colors without going back to original
-    let currentClass = body.className; // Using className
-    switch (currentClass) {
-        case 'black':
-            body.className = 'green';
-            break;
-        case 'green':
-            body.className = 'red';
-            break;
-        case 'red':
-            body.className = 'blue';
-            break;
-        case 'blue':
-            body.className = 'yellow';
-            break;
-        case 'yellow':
-            body.className = 'purple';
-            break;
-        case 'purple':
-            body.className = 'g';
-            break;
-        // If 'g' or any other class, it will go back to 'black'
-        default:
-            body.className = 'black';
+
+
+blackBtn.addEventListener('click', () => {
+    if (body.classList.contains('dark')) {
+        body.classList.remove('dark'); // If dark mode is on, turn it off
+    } else {
+        body.classList.add('dark'); // If dark mode is off, turn it on
     }
 });
 
 originalBtn.addEventListener('click', () => {
-    body.className = ''; // Clear any class setting it back to the default color
+    body.classList.remove('dark'); // This will ensure that the original theme button always turns off dark mode
 });
-
-

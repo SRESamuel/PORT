@@ -17,7 +17,6 @@
     margin: auto;
 }
 
-
 li {
     list-style: none;
 }
@@ -44,12 +43,20 @@ button {
     cursor: pointer;
 }
 
+
+#contactSplit {
+    margin-top: 15px;
+}
+
+#projectSplit {
+    margin-bottom: 15px;
+}
+
 html {
     font-size: 10px;
     scroll-behavior: smooth;
     font-family: 'Karla', sans-serif;
 }
-
 
 body {
     background-color: royalblue;
@@ -58,33 +65,10 @@ body {
     line-height: 1.7;
 }
 
-body.black {
+body.dark {
     background-color: black;
 }
 
-body.g {
-    background-color: lightslategray;
-}
-
-body.green{
-    background-color: green;
-}
-
-body.red {
-    background-color: red;
-}
-
-body.blue {
-    background-color: blue;
-}
-
-body.yellow {
-    background-color: yellow;
-}
-
-body.purple {
-    background-color: purple;
-}
 
 h1,h2,h3,h4,h6,h6 {
     color: white;
@@ -477,6 +461,8 @@ textarea.input-field {
 .copyright {
     color: black;
 }
+
+
 .footer-inner-container {
     background-color: white;
     padding: 32px;
@@ -486,6 +472,7 @@ textarea.input-field {
     align-items: center;
     gap: 40px;
 }
+
 
 /* End Footer section*/
 
@@ -538,6 +525,12 @@ textarea.input-field {
 
     .navBar-list {
         gap: 25px;
+    }
+
+    .theme-wrapper {
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
     }
 
     .about .gird-list {
